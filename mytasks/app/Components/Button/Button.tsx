@@ -32,7 +32,7 @@ function Button({
   color,
 }: Props) {
   const { theme } = useGlobalState();
-//Button
+
   return (
     <ButtonStyled
       type={type}
